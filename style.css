@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+.top-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links ul {
+    display: flex;
+    gap: 30px;
+    margin-right: 300px;
+    align-items: center;
+    margin: 12px 300px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke
+}
+
+.logo {
+    margin-left: 250px;
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.section-1 {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.left-text {
+    width: 350px;
+    padding: 50px 20px;
+    margin: 0px 30px 20px 400px;
+}
+
+.left-text h1 {
+    margin-bottom: 15px;
+    font-size: 38px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.left-text p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.767);
+}
+
+.sign-up-top {
+    padding: 10px 30px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(37, 98, 231);
+}
+
+.image-container {
+    width: 600px;
+    height: 250px;
+    padding: 40px 30px;
+    margin: 100px;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-2 h1 {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 130px;
+    align-items: center;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    border: 3px solid rgb(0, 81, 255);
+    width: 165px;
+    height: 157.8px;
+    border-radius: 20px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    margin-bottom: 163px;
+}
+
+.cards p {
+    color: rgb(114, 116, 117);
+}
+
+
+.quote {
+    background-color: rgb(44, 44, 44);
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(208, 207, 200);
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-text {
+    font-size: large;
+    font-weight: lighter;
+    width: 560px;
+}
+
+.author {
+    margin-top: 190px;
+    margin-right: 90px;
+}
+
+.sign-in {
+    background-color:  rgb(37, 98, 231);
+    padding: 50px;
+    width: 60%;
+    height: 60%;
+    margin: 150px 350px;
+    color: white;
+    align-items: center;
+}
+
+.sign-in-text {
+    margin-left: 50px;
+}
+
+.Sign-up-body {
+    padding: 10px 30px;
+    margin-left: 170px;
+    border: 3px solid white;
+    color: white;
+    border-radius: 10px;
+    font-weight: 400;
+  background-color:  rgb(37, 98, 231);
+}
+
+footer{
+    background-color: #1F2937;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
